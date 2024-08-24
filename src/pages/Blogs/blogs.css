@@ -1,0 +1,42 @@
+@media only screen and (min-width: 900px) and (max-width: 1366px) {
+    .grid {
+        width: 75vw;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 7.5vw;
+    }
+
+    .title {
+        padding-top: 12vh;
+        /* padding-bottom: 2vh; */
+    }
+
+    .cards {
+        margin-right: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+    .grid{
+        transform: scale(0.85);
+        margin-top: -150px !important;
+        padding-left: 2vw !important;
+    }
+    .title {
+        padding-top: 12vh;
+        /* padding-bottom: 2vh; */
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 750px) {
+    .grid{
+        transform: scale(0.85);
+        margin-top: -300px !important;
+        padding-left: 2vw !important;
+    }
+    .title {
+        padding-top: 12vh;
+        /* padding-bottom: 2vh; */
+    }
+}

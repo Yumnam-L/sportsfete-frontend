@@ -1,0 +1,25 @@
+version:  "3.8"
+services:
+  sportsfete-frontend:
+    container_name: sportsfete-frontend
+    build: .
+    env_file:
+      - .env
+    ports:
+      - ${PORT}:${PORT}
+    command:
+      - bash
+      - -c
+      - |
+        npm i
+        if [ "$ENV" == "PROD" ]
+        then
+          npm install -g serve
+          npm run build
+          serve -s build
+        else
+          npm start
+        fi
+    volumes:
+      - .:/app
+      - ./node_modules:/app/node_modules

@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+    .ProfileInfo > h3 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .ProfileInfo > h3 > span {
+        font-size: 12px !important;
+    }
+  }
+  
+
+  @media screen and (max-width: 450px) {
+    .ProfileInfo > h3 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .ProfileInfo > h3 > span {
+        font-size: 12px !important;
+    }
+    .logoutBtn {
+        transform: scale(0.8);
+        font-weight: 500 !important;
+    }
+  }
+  

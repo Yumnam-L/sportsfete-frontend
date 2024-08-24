@@ -1,0 +1,110 @@
+.home_bg {
+  background-image: linear-gradient(
+      180deg,
+      #00011c 1.25%,
+      rgba(0, 1, 39, 0.6) 39.79%,
+      rgba(0, 1, 65, 0.17) 69.06%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url("https://d39h29g1miuw3x.cloudfront.net/home_bg.png");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .home_bg {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .home_bg {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .home_bg {
+    height: 80vh;
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.live_event {
+  position: absolute;
+  top: 15vh;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover,
+.link:focus {
+  color: black;
+}
+
+.FrostedEffect {
+  box-shadow: 0 0 2rem 0 rgba(255, 255, 255, 0.2);
+
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  /* border: 5px white solid; */
+  /* padding:20px */
+}
+.FrostedEffect:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0px 2000px rgba(150, 150, 150, 1);
+  filter: blur(30px);
+  margin: -200px;
+}
+
+.FrostedEffect:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: -1;
+}
+
+.trophyBg {
+  background-image: url(pages/LeaderboardDescription/TrophyLeaderboard.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-clip-margin: 0px;
+}
+
+.MuiSlider-thumb {
+  color: rgba(255, 255, 255, 0.4);
+  border: 2px solid #ffffff;
+}
+.MuiSlider-rail {
+  color: rgba(255, 255, 255, 0.4);
+}
+.MuiSlider-track {
+  color: rgba(255, 255, 255, 0.4);
+}

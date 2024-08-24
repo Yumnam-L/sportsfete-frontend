@@ -1,0 +1,15 @@
+.next-button {
+padding: 10px 20px;
+background-color: #252A40;
+color: #fff;
+font-size: 1rem;
+border: none;
+border-radius: 0.5rem;
+cursor: pointer;
+opacity: 0.8;
+}
+
+.next-button:hover {
+background-color: #252A40;
+opacity: 1;
+}

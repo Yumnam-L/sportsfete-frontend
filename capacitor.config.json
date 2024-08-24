@@ -1,0 +1,9 @@
+{
+  "appId": "org.sportsfete",
+  "appName": "sportsfete-frontend",
+  "webDir": "build",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  }
+}

@@ -1,0 +1,76 @@
+.marathon_bg {
+  display: flex;
+  overflow: auto;
+  background-image: 
+    url("../../res/marathon2.png");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.test1 {
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  max-width: 440;
+  width: 60vw;
+  height: "100%";
+  max-height: 612;
+  padding: 20px 50px;
+  
+  /* background: #FFFFFF; */
+  flex-wrap:"wrap";
+  flex-direction: column;
+  /* border: 1px solid #DFE0EB; */
+  border-radius: 8px;
+  align-items: center;
+  overflow: auto;
+  
+  /* justify-content: center; */
+}
+.review-buttons {
+  transform: scale(1);
+}
+@media screen and (max-width: 1100px) {
+  .test1 {
+    
+    width: 50vw
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .test1 {
+    
+    width:80vw
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .test1 {
+    
+    width: 80vw
+  }
+  .review-buttons {
+    margin-top: -10px !important;
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-height: 645px) {
+  .marathon_bg {
+    
+    height: 645px;
+  }
+}
+
+
+.review-buttons {
+  display: flex;
+  gap:20px;
+}

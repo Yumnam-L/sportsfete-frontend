@@ -1,0 +1,11 @@
+{
+  "appId": "org.sportsfete",
+  "appName": "sportsfete",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
